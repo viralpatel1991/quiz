@@ -1,0 +1,65 @@
+ body {
+        font-family: arial;
+        background: rgb(242, 244, 246);
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      h3 {
+        color: rgb(199, 204, 209);
+        font-size: 28px;
+        text-align: center;
+      }
+
+      #elements-container {
+        text-align: center;
+      }
+
+      .draggable-element {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background: white;
+        border: 1px solid rgb(196, 196, 196);
+        line-height: 200px;
+        text-align: center;
+        margin: 10px;
+        color: rgb(51, 51, 51);
+        font-size: 30px;
+        cursor: move;
+      }
+
+      .drag-list {
+        width: auto;
+        margin-left: -40px;
+      }
+
+      .drag-list > li {
+        list-style: none;
+        background: rgb(255, 255, 255);
+        border: 1px solid rgb(196, 196, 196);
+        margin: 5px 0;
+        font-size: 16px;
+      }
+
+      .drag-list .drag-area {
+        display: inline-block;
+        background: rgb(158, 211, 179);
+        width: 100%;
+        height: 40px;
+        vertical-align: top;
+        padding:10px;
+        cursor: move;
+      }
+
+     .btn.btn-primary.active,
+      .btn.btn-primary:active {
+          color: #fff;
+          background-color: #5cb85c;
+          border-color: #5cb85c;
+          outline: none;
+      }
+
+     
